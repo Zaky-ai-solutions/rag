@@ -2,3 +2,20 @@
 This is the minimal implementation of RAG for question answering based on given documents. This is the implementation of ABUBAKER tutorial, which is titled mini-rag on youtube
 https://www.youtube.com/playlist?list=PLvLvlVqNQGHCUR2p0b8a0QpVjDUg50wQj
 
+## Requirements
+- python 3.10 or later
+
+#### Install Python using miniConda 
+1) https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions
+2) Create new conda environment using the following command
+```bash
+conda create -n rag python=3.10
+```
+3) Activate the environment using the following command
+```bash
+conda activate rag
+```
+4) Install the requirements.txt using the following command
+```bash
+pip install -r requirements.txt
+```

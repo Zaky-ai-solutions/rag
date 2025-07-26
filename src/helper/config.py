@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     APP_VERSION: str
     FILE_MAX_SIZE: int # mega Bytes
     FILE_ALLOWED_TYPES: list
+    FILE_DEFAULT_CHUNK_SIZE: int
     class Config:
         env_file = ".env"
 

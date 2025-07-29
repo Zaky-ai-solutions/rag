@@ -27,7 +27,7 @@ class DataController(BaseController):
             new_file_path = os.path.join(project_path,
                                      random_key+"_"+ cleaned_filename)
             
-        return new_file_path
+        return new_file_path, random_key+"_"+cleaned_filename
     
     def get_clean_filename(self, org_file_name:str):
         cleaned_file_name = re.sub(r'[^\w.]','',org_file_name.strip())
